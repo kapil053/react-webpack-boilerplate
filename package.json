@@ -41,7 +41,7 @@
     "cross-env": "5.2.0",
     "react": "16.6.1",
     "react-dom": "16.6.1",
-    "react-hot-loader": "4.6.2",
+    "react-hot-loader": "4.6.3",
     "react-router-dom": "4.3.0"
   },
   "devDependencies": {
