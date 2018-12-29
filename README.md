@@ -2,6 +2,10 @@
 
 [![Travis](https://img.shields.io/travis/KleoPetroff/react-webpack-boilerplate/master.svg?style=flat-square)](https://github.com/KleoPetroff/react-webpack-boilerplate) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+:warning: :warning: :warning: 
+
+As of 29.12.2018, the project is **DEPRECATED** and no further development is planned. If you are looking for an alternative, check [create-react-app](https://github.com/facebook/create-react-app).
+
 Simple and optimized React boilerplate. It includes: 
 
 - [x] React 16.5.2
