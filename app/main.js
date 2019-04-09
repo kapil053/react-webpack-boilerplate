@@ -1,14 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-
 import Root from './config/Root';
 
-const render = (Component) => {
+
+import { Provider } from 'react-redux';
+import createStore from './store';
+const store = createStore({});
+
+
+const render = () => {
   ReactDOM.render(
-    <AppContainer>
-      <Component />
-    </AppContainer>,
+	  <Provider store={store}>
+	    <AppContainer>
+	      <Root />
+	    </AppContainer>
+	  </Provider>,
     document.getElementById('root'),
   );
 };
@@ -21,3 +28,4 @@ if (module.hot) {
     render(newApp);
   });
 }
+
